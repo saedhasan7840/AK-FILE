@@ -1795,7 +1795,7 @@ def login_lagi334():
     except Exception as e:
         os.system("rm -f .token.txt")
         os.system("rm -f .cok.txt")
-        os.system("python nono.py")
+        os.system("python AK-FILE.py")
         exit()
 
 #------------------[ MENU ]----------------#
@@ -1824,7 +1824,7 @@ def menu():
     elif HEART in ['1']:
         crack_file()
     elif HEART in ['2','02']:
-        os.system('xdg-open https://github.com/saedhasan'AK-FILE.py')
+        os.system('xdg-open https://github.com/saedhasan7840AK-FILE.py')
         os.system("python AK-FILE.py")
     elif HEART in ['3','03']:
         result()
