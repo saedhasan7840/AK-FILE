@@ -1,4 +1,4 @@
-#-----------------[ AK-SAED ]-------------------#
+ #-----------------[ AK-SAED ]-------------------#
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -1711,7 +1711,7 @@ def meyexudi():
   except:
     sys.exit()
 meyexudi()
-#os.system("python NEW-2023 V7.3.py")
+#os.system("python AK-FILE.py")
 def naima():
 	print('-------------------')
 print(logo)
