@@ -1685,7 +1685,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/saedhasan7840/NEW2023.py/blob/main/Appeared.txt').text
+    httpCaht = requests.get('https://github.com/saedhasan7840/Saed/blob/main/File.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
