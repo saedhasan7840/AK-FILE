@@ -1543,7 +1543,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/saedhasan7840/SAED-V6.3.git').text
+        a=requests.get('https://github.com/saedhasan7840/Saed/blob/main/File.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
