@@ -1,4 +1,4 @@
- #-----------------[ AK-SAED ]-------------------#
+#-----------------[ AK-SAED ]-------------------#
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -28,14 +28,14 @@ print('\033[95;1m[\x1b[38;5;50m+\033[95;1m] \x1b[38;5;50mCHECKING UPDATE...? ')
 os.system("espeak -a 300 \"Checking,Update,\"")
 time.sleep(2)
 #os.system('clear')
-print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 6.3...! ')
-os.system("espeak -a 300 \"UPDATE VERSION 6.3,\"")
+print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 7.3...! ')
+os.system("espeak -a 300 \"UPDATE VERSION 7.3,\"")
 time.sleep(2)
 #os.system('clear')
 print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SUBSCRIBE MY TELEGRAM CHANNEL..!")
 os.system("espeak -a 300 \"SUBSCRIBE,MY,TELEGRAM,CHANNEL,\"")
 time.sleep(2)
-os.system(f'xdg-open https://t.me/+hG4xXGpU0a0wYjE1')
+os.system(f'xdg-open https://t.me/aksaedhasan')
 os.system(f'xdg-open https://www.faceboo.com/profile.php?id=100090616361619&mibextid=ZbWKwL')
 ##os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
 #------------------[ AK-SAED ]-------------------#
@@ -1543,7 +1543,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/saedhasan7840/Saed/blob/main/File.txt').text
+        a=requests.get('https://github.com/saedhasan7840/AK-FILE/blob/main/approval.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -1672,7 +1672,7 @@ logo ="""
 =================================================="\033[1;23m"""                                
 balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
 meyermarexudi =(""" \033[0;97m=============================================""")    
-alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 15 DEYS 200TK 30 350TK FOR    APPROVAL""")
+alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 15 DEYS 6 Dollars  30 10 Dollars FOR    APPROVAL""")
 xudartimenai =(""" \033[32;1m[+] CONTACT ADMIN PLZ ENTAR""")
 fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
 xudinaministar =(""" \033[38;1m[-] Importent Note """)
@@ -1685,7 +1685,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/saedhasan7840/Saed/blob/main/File.txt').text
+    httpCaht = requests.get('https://github.com/saedhasan7840/AK-FILE/blob/main/approval.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -1705,7 +1705,7 @@ def meyexudi():
       os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   AK,   SAED,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
       input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801690241739https://wa.me/+8801690241739?text?text='+tks),approval()      
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+966537468224https://wa.me/+966537468224?text?text='+tks),approval()      
       time.sleep(1)
       meyexudi()
   except:
